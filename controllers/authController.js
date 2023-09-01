@@ -5,8 +5,6 @@ const { google } = require("googleapis");
 const OAuth2 = google.auth.OAuth2;
 const jwt = require('jsonwebtoken');
 require('dotenv').config({ path: '../config.env' });
-const JWT_KEY = "jwtactive987";
-const JWT_RESET_KEY = "jwtreset987";
 
 //------------ User Model ------------//
 const User = require('../models/User');

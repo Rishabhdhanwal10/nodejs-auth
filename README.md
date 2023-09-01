@@ -2,7 +2,7 @@
 > A complete authentication app with login, logout, register, forget password, email verification(for added security), and access control. Can be used as starter for other Node.JS applications. using Node.js, Express, Passport, JWT, Mongoose, and more. 
 
 ## Web App Link
-
+http://13.232.167.1:8000/
 
 ## Technologies Used
 1.  NodeJS
@@ -24,7 +24,7 @@
 
 ##### Clone the latest Repository
 
-``
+`https://github.com/Rishabhdhanwal10/nodejs-auth`
 
 ##### Into the project directory
 
@@ -36,7 +36,7 @@
 
 ##### Then simply start your app
 
-`npm start` or `node server.js` or `nodemon server.js`
+`npm start` or `node app.js` or `nodemon app.js`
 
 #### The Server should now be running at 
 
