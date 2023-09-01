@@ -122,7 +122,7 @@ exports.activateHandle = (req, res) => {
     const token = req.params.token;
     let errors = [];
     if (token) {
-        jwt.verify(token, JWT_KEY, (err, decodedToken) => {
+        jwt.verify(token, process.env.JWT_KEY, (err, decodedToken) => {
             if (err) {
                 req.flash(
                     'error_msg',
