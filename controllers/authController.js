@@ -280,7 +280,7 @@ exports.gotoReset = (req, res) => {
     const { token } = req.params;
 
     if (token) {
-        jwt.verify(token, JWT_RESET_KEY, (err, decodedToken) => {
+        jwt.verify(token, process.env.JWT_RESET_KEY, (err, decodedToken) => {
             if (err) {
                 req.flash(
                     'error_msg',
